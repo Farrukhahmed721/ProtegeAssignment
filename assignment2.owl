@@ -1,0 +1,330 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/farrukhahmed/ontologies/2018/1/untitled-ontology-6"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/farrukhahmed/ontologies/2018/1/untitled-ontology-6">
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Heart_Surgeon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Equipment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Female_Security"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Doctor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dentist"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Shift"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Male_Cleaners"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nurse"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Physical_Surgeon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Male_Patient"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Peon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Female_Patient"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Female_Cleaners"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Specialist"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Age"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Heart_Specialist"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Patient"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ear_Specialist"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Medicines"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sugar_Specialist"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Person"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Salary"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Id"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Staff"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Physiotherapy_Specialist"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Id"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WardBoy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Name"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Female_Drivers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ambulances"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Male_Drivers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cleaners"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Drivers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Emergency_Patient"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pschologiest"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Male_Security"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Material"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nose_Specialist"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sugeon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hospital"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Security"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Assistant_Surgeon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Eyes_Specialist"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Ambulances"/>
+        <Class IRI="#Material"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Assistant_Surgeon"/>
+        <Class IRI="#Sugeon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cleaners"/>
+        <Class IRI="#Staff"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dentist"/>
+        <Class IRI="#Specialist"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Doctor"/>
+        <Class IRI="#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Drivers"/>
+        <Class IRI="#Staff"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ear_Specialist"/>
+        <Class IRI="#Specialist"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Emergency_Patient"/>
+        <Class IRI="#Patient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Equipment"/>
+        <Class IRI="#Material"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Eyes_Specialist"/>
+        <Class IRI="#Specialist"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Female_Cleaners"/>
+        <Class IRI="#Cleaners"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Female_Drivers"/>
+        <Class IRI="#Drivers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Female_Patient"/>
+        <Class IRI="#Patient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Female_Security"/>
+        <Class IRI="#Security"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Heart_Specialist"/>
+        <Class IRI="#Specialist"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Heart_Surgeon"/>
+        <Class IRI="#Sugeon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Male_Cleaners"/>
+        <Class IRI="#Cleaners"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Male_Drivers"/>
+        <Class IRI="#Drivers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Male_Patient"/>
+        <Class IRI="#Patient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Male_Security"/>
+        <Class IRI="#Security"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Material"/>
+        <Class IRI="#Hospital"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Medicines"/>
+        <Class IRI="#Material"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nose_Specialist"/>
+        <Class IRI="#Specialist"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nurse"/>
+        <Class IRI="#Staff"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Patient"/>
+        <Class IRI="#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Peon"/>
+        <Class IRI="#Staff"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Person"/>
+        <Class IRI="#Hospital"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Physical_Surgeon"/>
+        <Class IRI="#Sugeon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Physiotherapy_Specialist"/>
+        <Class IRI="#Specialist"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pschologiest"/>
+        <Class IRI="#Specialist"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Security"/>
+        <Class IRI="#Staff"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Specialist"/>
+        <Class IRI="#Doctor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Staff"/>
+        <Class IRI="#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sugar_Specialist"/>
+        <Class IRI="#Specialist"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sugeon"/>
+        <Class IRI="#Doctor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WardBoy"/>
+        <Class IRI="#Staff"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Nurse"/>
+        <Class IRI="#Security"/>
+        <Class IRI="#WardBoy"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#Person"/>
+        <NamedIndividual IRI="#Age"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Person"/>
+        <NamedIndividual IRI="#Id"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Person"/>
+        <NamedIndividual IRI="#Name"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Person"/>
+        <NamedIndividual IRI="#Salary"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Person"/>
+        <NamedIndividual IRI="#Shift"/>
+    </ClassAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Id"/>
+        <AnonymousIndividual nodeID="_:genid-01cbf671-9d48-4497-80fd-a9e3bafd43ce"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral"></Literal>
+    </DataPropertyAssertion>
+    <SubDataPropertyOf>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+        <DataProperty IRI="#Id"/>
+    </SubDataPropertyOf>
+    <DataPropertyRange>
+        <DataProperty IRI="#Id"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
